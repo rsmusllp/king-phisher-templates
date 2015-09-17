@@ -1,4 +1,3 @@
-
 # AV Update Template
 
 **Objective:** Credential Harvesting
@@ -8,12 +7,12 @@ Spoofing as an IT administrator, you're pushing out new antivirus software and n
 
 ## Things you'll need to change:
 * File: ./login: 
-  ** name="logo" -> update to the company logo
-  ** Store company logo in the images folder. name it logo.png
+  * name="logo" -> update to the company logo
+  * Store company logo in the images folder. name it logo.png
 
 * File: ./scan: 
-  ** name="logo" -> update to company logo
+  * name="logo" -> update to company logo
 
 * File: /include/style-login-new.css
-  ** footer#bottom -> update the background:# to the spoofed company color if wanted. 
-  ** header -> update background-color:# to spoofed company color if wanted.
+  * footer#bottom -> update the background:# to the spoofed company color if wanted. 
+  * header -> update background-color:# to spoofed company color if wanted.

