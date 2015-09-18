@@ -3,7 +3,7 @@ BODY {
 }
 
 header {
- width: 1024px; padding-top: 15px; display: block; margin-left: auto; margin-right: auto;
+ background-color:#FFF; width: 1024px; padding-top: 15px; display: block; margin-left: auto; margin-right: auto;
 }
 
 IMG.displayed {
@@ -67,7 +67,7 @@ MENU, article, aside, details, figcaption, figure, footer, header, hgroup, nav, 
 }
 
 footer#bottom {
- padding-bottom: 0px; margin: 0px auto; padding-left: 42px; width: 940px; padding-right: 42px; background: #868686 none repeat scroll 0% 0%; color: #FFF; clear: both; font-size: 85%; border-radius: 0px 0px 4px 4px; box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 3px 0px rgba(0, 0, 0, 0.3), 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+ padding-bottom: 0px; margin: 0px auto; padding-left: 42px; width: 940px; padding-right: 42px; background: #000033 none repeat scroll 0% 0%;  color: #FFF; clear: both; font-size: 85%; border-radius: 0px 0px 4px 4px; box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 3px 0px rgba(0, 0, 0, 0.3), 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
 footer#bottom DIV {
