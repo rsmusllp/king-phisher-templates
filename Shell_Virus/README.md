@@ -3,8 +3,9 @@
 **Objective:** Shell
 
 ## Pretext: 
-You are an IT Admin and a new virus has been infecting computers. You are sending out a spreadsheet to users who are affected. You're asking the phished users to view the document to make sure they're not on the list and to come see the admin if you are.
-
+You are an IT Admin and a new virus has been infecting computers. You are sending out a
+spreadsheet to users who are affected. You're asking the phished users to view the
+document to make sure they're not on the list and to come see the admin if you are.
 
 ## To Change:
 Create your own macros (Empire is easiest) to call back. 
