@@ -1,0 +1,51 @@
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="CACHE_CONTROL" content="NO-CACHE">
+    <meta http-equiv="PRAGMA" CONTENT="NO-CACHE">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="./include/style.css">
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <title>{{client.company_name}} Login</title>
+</head>
+
+<body>
+
+    <body class="login-background grad">
+        <div class="login-container" id="login-container">
+            <div id="login-page-links" align="center">
+                <img class="login-logo" src="./images/logo.png"></img>
+                <div class="login-text-area">
+                    <span class="login-large-text">{{client.company_name}} Intranet Login</span>
+
+                    <br>
+
+                </div>
+            </div>
+            <form name='f' action='./login-verify.html' method='POST' novalidate>
+                <div class="login-hint-form-field">
+                    <div class="login-id">
+                        <input class="new-login-text" spellcheck="false" size="45" id="username" tabindex=1 placeholder="username" onfocus="this.placeholder = ''" onblur="this.placeholder = 'username'" />
+                    </div>
+                </div>
+                <div class="login-hint-form-field">
+                    <div>
+                        <input class="new-login-text" size="45" id="password" type='password' tabindex=2 placeholder="password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'password'"/>
+                    </div>
+                </div>
+                <input class="loginButton" type="submit" id="saveAndSubmit" name="saveAndSubmit" value="Login" alt="Login" />
+                <span class="check-box-input"><input type="checkbox" id="rememberUsername" name="rememberUsername" value="rememberUsername" tabindex=3 /></span><span class="login-button-text">&nbsp;Remember me&nbsp;&nbsp;&nbsp;</span>
+                <span class="check-box-input"><input type='checkbox' name='keepLoggedIn' tabindex=4 /></span> <span class="login-button-text">&nbsp;Keep me logged in</span>
+                <div class="login-small-text reset-password">
+                    <a href="forgotpassword.html">Forgot your password?</a>
+                </div>
+            </form>
+            <div id="login-footer">
+                Copyright© 2015 {{client.company_name}}. All rights reserved. The software and technologies used in association with the {{client.company_name}} intranet service are covered by U.S. Patents #8,631,021 and #8,706,723, and one or more pending patent applications, owned by {{client.company_name}}.
+            </div>
+        </div>
+    </body>
+
+</html>
