@@ -1,6 +1,6 @@
 # Phishing Awareness Training Email 
 
-** Objective:** Shell
+**Objective:** Shell
 
 ## Pretext: 
 You are an IT Security Manager, or IT Admin who has reciently conducted a phishing awareness campaign against your company. You are asking users to read through the email for phishing awareness and to download and view the results of the phishing campaign. The excel document needs macros enabled to view the results
