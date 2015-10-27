@@ -4,11 +4,13 @@
 Templates for the King Phisher Phishing Campaign Toolkit
 
 These files are provided for use with [King Phisher](https://github.com/securestate/king-phisher).
-All template documentation is kept in the [King Phisher wiki](https://github.com/securestate/king-phisher/wiki).
+All template documentation is kept in the [King Phisher Wiki](https://github.com/securestate/king-phisher/wiki).
+
+## Contributing
+If you are interested in contributing an email template or phishing website, take a look at the [Contribution Documents](CONTRIBUTING.md) to see how to get your changes merged in.
 
 ## License
-King Phisher Templates are released under the BSD 3-clause license, for more
-details see the [LICENSE](https://github.com/securestate/king-phisher-templates/blob/master/LICENSE) file.
+King Phisher Templates are released under the BSD 3-clause license, for more details see the [LICENSE](https://github.com/securestate/king-phisher-templates/blob/master/LICENSE) file.
 
 ## Credits
 Template Authors:
