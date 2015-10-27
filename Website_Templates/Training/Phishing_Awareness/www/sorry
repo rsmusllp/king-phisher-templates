@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<title>{{ client.company_name }} Phishing Awareness</title>
+		<link rel="stylesheet" href="./include/default.css" type="text/css" />
+		<link rel="SHORTCUT ICON" href="./images/favicon.ico" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<table>
+				<tr>
+					<td align="center"><h1>We're Sorry!</h1></td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<td align="center"><p>You have already completed the Phishing Awareness Training for this security test.</p></td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

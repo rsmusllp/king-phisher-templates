@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<title>Thank You!</title>
+		<link rel="stylesheet" href="./include/default.css" type="text/css" />
+		<link rel="SHORTCUT ICON" href="./images/favicon.ico" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<table>
+				<tr>
+					<td align="center"><h1>Thank You!</h1></td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<td align="center"><p>Thank you for participating in {{ client.company_name|default('your company') }}'s email phishing test and for your future commitment to take phishing awareness seriously.</p></td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
