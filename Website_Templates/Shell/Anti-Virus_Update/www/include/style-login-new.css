@@ -1,0 +1,107 @@
+/* Change 'background-color:' and 'color:' in this section to customize login page colors */
+header {
+	background-color: #FFF;
+	width: 1024px;
+	padding-top: 15px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer#bottom {
+	color: #FFF;
+	padding-bottom: 0px;
+	margin: 0px auto;
+	padding-left: 42px;
+	width: 940px;
+	padding-right: 42px;
+	background: #000033 none repeat scroll 0% 0%;
+	clear: both; font-size: 85%;
+	border-radius: 0px 0px 4px 4px;
+	box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 3px 0px rgba(0, 0, 0, 0.3), 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Do not edit below this line */
+
+BODY {
+	font: 75%/150% Arial,Verdana,sans-serif; color: #2A2A2A; background: linear-gradient(#FFF 0%, #FFF 20px, rgba(255, 255, 255, 0) 200px) no-repeat scroll 0% 0%, transparent url("../images/bg-body.jpg") repeat scroll 0% 0%; padding-bottom: 15px;
+}
+
+IMG.displayed {
+	display: block; margin-right: auto; margin-bottom: 10px;
+}
+
+#container {
+	height: 750px; padding: 0px 42px; margin: 0px auto; width: 940px; background: #FBFBFB none repeat scroll 0% 0%; border-radius: 4px 4px 0px 0px; box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 3px 0px rgba(0, 0, 0, 0.3), 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+#page-heading {
+	clear: both; padding-top: 50px;
+}
+
+.right-promo {
+	border-width: 1px; border-style: solid; border-color: #DDD; width: 218px; background: #FFF none repeat scroll 0% 0%; float: right; color: #333; clear: both;
+}
+
+.right-promo aside {
+	border-bottom: 1px solid #DDD; padding-top: 10px;
+}
+
+.right-promo aside, .right-promo aside.graybox {
+	padding-bottom: 10px; padding-left: 10px; padding-right: 10px;
+}
+
+article, footer, header, section {
+	display: block;
+}
+
+#container .right-promo table input[type="text"], #container .right-promo table input[type="password"] {
+	width: 120px
+}
+
+#InputContent {
+	height: 92px; border-bottom: 0px none;
+}
+
+.content-slim-left {
+	width: 698px; background: #FFF none repeat scroll 0% 0%; float: left; margin-bottom: 20px; border: 1px solid #DDD
+}
+
+.scroll-short {
+	height: 225px
+}
+
+.content-slim-left .scrollable {
+	position: relative; width: 698px; overflow: hidden;
+}
+
+.ocms-search-btn, INPUT, INPUT[type="submit"], nav#primary UL LI INPUT#submit {
+}
+
+.clear {
+	clear: both;
+}
+
+footer#bottom DIV {
+	padding: 7px 0px; margin: 0px auto; width: 940px; float: none;
+}
+
+footer#bottom UL#left {
+	color: #FFF;
+	margin: 0px; 
+	float: left;
+}
+
+footer#bottom UL#right {
+	color: #FFF;
+	margin: 0px;
+	float: right;
+}
+
+HR, UL.red-arrow LI, footer#bottom {
+	border-width: 0px; border-style: none; border-color: -moz-use-text-color;
+}
+
+BODY, DIV, FORM, HTML, IMG, LABEL, P, SPAN, STRONG, TABLE, TBODY, TD, TR, UL, aside, footer, section {
+	border-width: 0px; border-style: none; border-color: -moz-use-text-color; padding: 0px; margin: 0px; outline-style: none; outline-width: 0px; background: transparent none repeat scroll 0px 0px; vertical-align: baseline;
+}
