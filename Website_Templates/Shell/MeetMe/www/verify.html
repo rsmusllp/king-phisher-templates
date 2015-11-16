@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <link href="./include/style.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="./include/style-scan-new.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="./include/progress_bar.js" type="text/javascript"></script>
+    <link rel="SHORTCUT ICON" href="./images/favicon.ico" />
+    <title>{{client.company_name}} | MeetMe Portal</title>
+</head>
+
+<body class="index">
+    <div id="container">
+        <header>
+            <img name="logo" src="./images/logo.png" height="75">
+        </header>
+        <div class="container">
+            <section class="intro" style="display: none">
+                <h2>Joining Your Meeting</h2>
+                <br />
+            </section>
+            <section class="work">
+                <div class="ui-progress-bar ui-container" id="progress_bar">
+                    <div class="ui-progress" style="width: 7%">
+                        <span class="ui-label" style="display:none">
+							Getting Things Ready
+							<b class="value">7%</b>
+						</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script>
+            //<![CDATA[
+            $(function() {
+                App.init();
+            });
+            //]]>
+        </script>
+    </div>
+</body>
+
+</html>
