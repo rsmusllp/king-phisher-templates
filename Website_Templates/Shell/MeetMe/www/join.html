@@ -6,13 +6,17 @@
     <link rel="Shortcut Icon" href="/fec/images/MeetMe_favicon.ico">
     <title>Join the Meeting | MeetMe</title>
     <link rel="stylesheet" href="./include/style.css" type="text/css">
+    <link rel="stylesheet" href="./include/js-image-slider.css" type="text/css" />
+    <link rel="stylesheet" href="./include/tooltip.css" type="text/css" />
+    <script src="./include/js-image-slider.js" type="text/javascript" ></script>
+    <script src="stylesheet" href="./include/tooltip.js" type="text/javascript" ></script>
 </head>
 
 <body>
     <header>
         <a href="login.html" class="login">Login</a>
         <div class="logo">
-            <img src="./images/logo.png" height="50px">
+            <a href="./index.html"><img src="./images/logo.png" height="50px"></a>
         </div>
         <div class="tagline">
             Making Meetings Easier... One Step at a Time
@@ -20,11 +24,17 @@
     </header>
     <div class="container">
         <div class="banner">
-            <img class="bottom" src="images/banner1.jpg" />
-            <img class="top" src="images/banner2.jpg" />
+            <div id="sliderFrame">
+                <div id="slider">
+                <img src="./images/banner3.jpg" alt="3M Worldwide Users Per Month" />
+                <img src="./images/banner4.jpg" alt="MeetMe: Takes the guess workout of meeting     attendance" />  
+                <img src="./images/banner5.jpg" alt="25% Faster Than Our Competators" />    
+                <img src="./images/banner7.jpg" alt="Connect with anyone, anywhere. On any device." />
+                <img src="./images/banner1.jpg" alt="38M Online Meetings This Year" />
+            </div>
         </div>
-
-        <div class="form_area">
+        </div>
+        <div class="form_area" style="background-color:#00a300;">
             <form action="./login.html" method="post">
                 <table class="login_table">
                     <tr>
