@@ -1,0 +1,23 @@
+<html>
+<style type="text/css">
+.highlight{color:#00a300;}
+.link{color:#00a300; font-weight:bold; font-size:20px;text-decoration:none;}
+.link hover {text-decoration:underline;>
+</style>
+<strong>{{ sender.friendly_alias }} is inviting you to this MeetMe online meeting:</strong>
+<p>{{ sender.friendly_alias }}&#39;s Mandatory Cyber Security Awareness Meeting</a> {% if calendar_invite is defined %} <span class="highlight">(Scheduled)</span>
+</p>
+<p>{{ calendar_invite.start | strftime('%a, %b %d %-I:%M %p') }}</strong> | 1 hr</p>
+<p>{% else %} <span class="highlight">(In progress)</span>
+</p>
+<p>{{ time.local | strftime('%a, %b %d %-I:%M %p') }} | 30 min</p>
+{% endif %}
+<p><a href="{{url.webserver}}" class="link">Click Here to Join!</a></p>
+<p><strong>Host:</strong> {{sender.friendly_alias}}</p>
+<hr>
+<p><strong>Access Information</strong></p>
+<p><strong>Where:</strong>MeetMe Online Conference Room</p>
+<p><strong>MeetMe ID:</strong> #{{ random_integer(100, 999) }} {{ random_integer(100, 999) }} {{ random_integer(100, 999) }}</p>
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+{{ tracking_dot_image_tag }}
+</html>
