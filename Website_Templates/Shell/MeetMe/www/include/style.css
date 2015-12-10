@@ -34,3 +34,7 @@ footer .copyright{color:#666;float:left;font-size:11px;width:920px; padding:10px
 .index_main p {color:#21252a; font-size:12px;}
 .tagline2{font-size:12px;line-height:35px;font-weight:bold;color:#00a300;text-transform:uppercase;}
 .clear{clear:all;}
+/* For Sharing Page   */
+.share{ }
+.share_table{ margin:0 auto; width:70%; color:#000;}
+.share_table td tr{ padding:0px;}
