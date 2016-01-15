@@ -13,6 +13,7 @@ First the user is asked to enter a MeetMe number to join the meeting. The compan
   * Create a custom executable file.
   * Use Empire or Veil if possible to avoid anti-virus detection.
   * Make sure to name your executable 'MeetMe_Client_v3.5.3.exe' or you will have to edit the link in the 'failed' page.
-
+2. File: mysharedfiles.html
+  * update table according to file information you'd like to share. Make sure you actually creat the file and store them into the 'files' folder.
 ## Landing Page
 File: ./join.html
