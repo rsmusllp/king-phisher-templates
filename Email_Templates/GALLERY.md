@@ -1,8 +1,8 @@
 ![alt text](https://github.com/securestate/king-phisher/raw/master/data/king-phisher-logo.png "King Phisher")
 
-# King Phisher Email Template Image Gallery
+# King Phisher Email Template Gallery
 
-Below is a gallery of different Email Templates that can be integrated into King Phisher.  
+Below is a gallery of different Email templates that can be integrated into King Phisher.  
 
 ## Calender Invite
 
