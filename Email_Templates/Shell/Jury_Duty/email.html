@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+	{% set court_name = ENTER_COURT_NAME_HERE %}
+	{% set court_address = ENTER_COURT'S_ADDRESS_HERE %}
+	{% set court_website_url = ENTER_COURT'S_WEBSITE %}
+</head>
+<html>
+	<style type="text/css">
+		table {width:900px;}
+		tr p { margin:5px; padding:5px; vertical-align: top; }
+		.headline{ font-weight:bold; }
+		.tagline { font-weight:bold; color:#FF0000; }
+	</style>
+	<body>
+		<p><img src="https://upload.wikimedia.org/wikipedia/en/8/80/Cuyahoga_County_Seal.png" width="150px;"/></p>
+		<p><strong>{{ client.first_name }} {{ client.last_name }}</strong>,</p>
+		<span class="headline">You have been summoned for jury service to the {{ court_name }}.</span></p>
+		<p><span class="headline">Your Group Number is:</span> <span class="tagline">{{ random_integer (1000,9999) }} </span></p>
+		<p><span class="headline">Scheduled Appearance Date:</span> <span class="tagline">{{ time.local | next_month | strftime('%mm %dd, %YYYY') }}</span></p>
+		<p width="300px"><span class="headline">Where You Must Appear:</span></p>
+		<p><span class="tagline"> {{ court_name }}</span><br />
+	       <span class="headline"> {{ court_address }} </span></p>
+		<p><strong>Please print and bring the attached Summons with you.</strong> Be prepared to attend court from your assigned reporting time up to 5:00 P.M. Reasonable accommodations for persons with ADA disabilities must be requested at least ten days in advance from the Jury Office ADA-Coordinator at telephone number 1-800-843-8588. Free parking is available. </p>
+		<p>To qualify your appearance or request a first time postponement, use our website @ <a href="{{ court_website_url }}" >www.coc.cuyahogacounty.us</a></p>
+		<p style="text-align:center;">
+		<hr style="dotted 5px #333;" />
+		<span class="tagline">*** IMPORTANT ***</span><br /></p>
+		<p>Prospective jurors are required by law to attend the jury duty selection process. If you fail to do so, you may be held in contempt of court.</p>
+		<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+		{{ url.tracking_dot }}
+	</body>
+</html> 
