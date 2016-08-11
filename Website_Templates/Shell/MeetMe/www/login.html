@@ -1,5 +1,4 @@
 <html lang="en-US">
-
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <meta http-equiv="content-language" content="en-US">
@@ -11,7 +10,6 @@
     <script src="./include/js-image-slider.js" type="text/javascript" ></script>
     <script src="stylesheet" href="./include/tooltip.js" type="text/javascript" ></script>
 </head>
-
 <body>
     <header>
         <a href="join.html" class="login">Join a Meeting</a>
@@ -24,48 +22,45 @@
     </header>
     <div class="container">
         <div class="banner">
-        <div id="sliderFrame">  
-            <div id="slider">   
+        <div id="sliderFrame">
+            <div id="slider">
                 <img src="./images/banner1.jpg" alt="38M Online Meetings This Year" />
                 <img src="./images/banner5.jpg" alt="25% Faster Than Our Competators" />
-                <img src="./images/banner3.jpg" alt="3M Worldwide Users Per Month" />   
+                <img src="./images/banner3.jpg" alt="3M Worldwide Users Per Month" />
                 <img src="./images/banner4.jpg" alt="MeetMe: Takes the guess workout of meeting     attendance" />
                 <img src="./images/banner7.jpg" alt="Connect with anyone, anywhere. On any device." />
             </div>
         </div>
     </div>
-
-        <div class="form_area">
-            <form action="./verify.html" method="post">
-                <table class="login_table" style="width:600px; margin-left:220px;">
-                    <tr>
-                        <td colspan="2">
-                            <span>Looks like {{client.company_name}} is requiring you to log in. <br />
-        			Please use your user credentials to log in to enter your meeting.</span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input name="username" id="username" type="text" class="input" placeholder="Company Username" required>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input name="password" id="password" type="text" class="input" type="password" autocomplete="off" placeholder="Password" required>
-                        </td>
-                        <td style="text-align:left;">
-                            <input type="submit" class="button" value="Log In">
-                        </td>
-                    </tr>
-                    </tr>
-                </table>
-            </form>
-        </div>
-
-                <footer>
-            <hr>
-            <span class="copyright">Copyright &copy; {{ time.local|strftime('%Y') }} {{ client.company_name }}, All rights reserved.</span>
-            </footer>
+    <div class="form_area">
+        <form action="./verify.html" method="post">
+            <table class="login_table" style="width:600px; margin-left:220px;">
+                <tr>
+                    <td colspan="2">
+                        <span>Looks like {{client.company_name}} is requiring you to log in.<br />
+                        Please use your user credentials to log in to enter your meeting.</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input name="username" id="username" type="text" class="input" placeholder="Company Username" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input name="password" id="password" type="password" class="input" autocomplete="off" placeholder="Password" required>
+                    </td>
+                    <td style="text-align:left;">
+                        <input type="submit" class="button" value="Log In">
+                    </td>
+                </tr>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <footer>
+        <hr>
+        <span class="copyright">Copyright &copy; {{ time.local|strftime('%Y') }} {{ client.company_name }}, All rights reserved.</span>
+    </footer>
 </body>
-
 </html>
