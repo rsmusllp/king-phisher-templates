@@ -7,10 +7,10 @@
 <strong>{{ sender.friendly_alias }} is inviting you to this MeetMe online meeting:</strong>
 <p>{{ sender.friendly_alias }}&#39;s Mandatory Cyber Security Awareness Meeting</a> {% if calendar_invite is defined %} <span class="highlight">(Scheduled)</span>
 </p>
-<p>{{ calendar_invite.start | strftime('%a, %b %d %-I:%M %p') }}</strong> | 1 hr</p>
+<p>{{ calendar_invite.start | strftime('%a, %b %d %I:%M %p') }}</strong> | 1 hr</p>
 <p>{% else %} <span class="highlight">(In progress)</span>
 </p>
-<p>{{ time.local | strftime('%a, %b %d %-I:%M %p') }} | 30 min</p>
+<p>{{ time.local | strftime('%a, %b %d %I:%M %p') }} | 30 min</p>
 {% endif %}
 <p><a href="{{url.webserver}}" class="link">Click Here to Join!</a></p>
 <p><strong>Host:</strong> {{sender.friendly_alias}}</p>
