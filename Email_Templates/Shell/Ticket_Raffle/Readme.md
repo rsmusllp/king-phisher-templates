@@ -11,3 +11,4 @@ As part of an upcoming holiday or special event, you are an HR or marketing empl
 3. Free ticket templates may be found here: http://www.hloom.com/free-raffle-ticket-templates/
        
 
+![Spreadsheet Preview](preview.png)
