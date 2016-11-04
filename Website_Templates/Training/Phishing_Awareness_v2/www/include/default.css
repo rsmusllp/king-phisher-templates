@@ -1,0 +1,21 @@
+/* default.css */
+
+body { background-color:#303030; font-family:Helvetica, Arial, sans-serif; }
+h1 { color: #4682b4; text-transform:uppercase; }
+h3 {text-transform:uppercase; max-width:650px; margin:10px auto; text-shadow: 1px 1px 1px #000; color:#95040b; }
+h3:hover {text-decoration:underline; }
+img { border-style:initial; border-color: initial; border-width: 0px; max-width:650px; box-shadow:2px 2px 2px 2px; border-radius:5px; }
+p { max-width:650px; margin:20px auto; }
+input { margin:5px 10px; }
+a {color:#95040b; text-decoration:none; }
+a:hover {text-decoration:underline; }
+
+
+.logo { width:300px; box-shadow:none;  }
+.button { background:#95040b; border:1px solid #000; border-radius:3px; padding: 5px 10px; box-shadow: 3px 3px 3px; font-weight:bold; color:#FFF; text-transform:uppercase; }
+.button:hover{ background:#FFF; color:#000; }
+
+#wrapper { background-color: #fff; box-shadow: 4px 4px 5px #000; border-radius: 5px; padding: 50px; width:700px; margin: auto; margin-top: 20px; padding-top:10px; text-align:justify; }
+#wrapper table { width:100%; }
+
+
