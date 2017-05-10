@@ -28,6 +28,10 @@ Below is a gallery of different Website templates that can be integrated into Ki
 
 ![alt text](https://raw.githubusercontent.com/securestate/king-phisher-templates/master/screenshots/Websites/website_Templates-Credentials-Registration_Sign_Up-REGISTER.png "registration_sign_up(creds).html")
 
+## Credentials/SurveyHound Login
+
+![alt text](https://raw.githubusercontent.com/securestate/king-phisher-templates/master/screenshots/Websites/Credentials_SurveyHound_LOGIN.png "surveyhound(creds).html")
+
 ## Shell/Anti-Virus Update Failed
 
 ![alt text](https://raw.githubusercontent.com/securestate/king-phisher-templates/master/screenshots/Websites/Shell_Anti_Virus_Update_FAILED.png "Anti_Virus_Update-FAILED.html")
@@ -79,6 +83,18 @@ Below is a gallery of different Website templates that can be integrated into Ki
 ## Training/Phishing Awareness Trained
 
 ![alt text](https://raw.githubusercontent.com/securestate/king-phisher-templates/master/screenshots/Websites/Training_Phishing_awareness_TRAINED.png "Phishing_Awareness_TRAINED.html")
+
+## Training/Phishing Awareness v2 Verify
+
+![alt text](https://raw.githubusercontent.com/securestate/king-phisher-templates/master/screenshots/Websites/Training_Phishing_awareness_v2_verify.png "Phishing_Awareness_v2_Verified.html")
+
+## Training/Phishing Awareness v2 Trained
+
+![alt text](https://raw.githubusercontent.com/securestate/king-phisher-templates/master/screenshots/Websites/Training_Phishing_awareness_v2_trained.png "Phishing_Awareness_v2_Trained.html")
+
+## Training/Phishing Awareness v2 Sorry
+
+![alt text](https://raw.githubusercontent.com/securestate/king-phisher-templates/master/screenshots/Websites/Training_Phishing_awareness_v2_sorry.png "Phishing_Awareness_v2_Sorry.html")
 
 ## Contributing
 If you are interested in contributing an email template or phishing website, take a look at the [Contribution Documents](CONTRIBUTING.md) to see how to get your changes merged in.

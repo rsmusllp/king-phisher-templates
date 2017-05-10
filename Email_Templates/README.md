@@ -10,11 +10,35 @@ Below is a gallery of different Email templates that can be integrated into King
 
 ## Credentials/Anti-Virus Update
 
-![alt text](https://raw.githubusercontent.com/johnsomn/king-phisher-templates/master/screenshots/Email/Anti-Virus_Update_Credentials_Screenshot.png "anti-virus_update(credentials).html")
+![alt text](https://raw.githubusercontent.com/securestate/king-phisher-templates/master/screenshots/Email/Anti-Virus_Update_Credentials_Screenshot.png "anti-virus_update(credentials).html")
 
 ## Shell/Anti-Virus Update
 
 ![alt text](https://raw.githubusercontent.com/securestate/king-phisher-templates/master/screenshots/Email/Anti-Virus_Update_Shell_Screenshot.png "anti-virus_update(shell).html")
+
+## Credentials/SurveyHound
+
+![alt text](https://raw.githubusercontent.com/securestate/king-phisher-templates/master/screenshots/Email/SurveyHound_Credentials_Screenshot.png "surveyhound(shell).html")
+
+## Credentials/Ticket Notice
+
+![alt text](https://raw.githubusercontent.com/securestate/king-phisher-templates/master/screenshots/Email/Ticket_Notice_Creds_Screenshot.png "ticket_notice(shell).html")
+
+## Shell/Jury Duty
+
+![alt text](https://raw.githubusercontent.com/securestate/king-phisher-templates/master/screenshots/Email/Jury_Duty_Shell_Screenshot.png "jury_duty(shell).html")
+
+## Shell/Policy Update
+
+![alt text](https://raw.githubusercontent.com/securestate/king-phisher-templates/master/screenshots/Email/Policy_Update_html_Screenshot.png "policy_update(shell).html")
+
+## Shell/Ticket Raffle
+
+![alt text](https://raw.githubusercontent.com/securestate/king-phisher-templates/master/screenshots/Email/Ticket_Raffle_html_Screenshot.png "ticket_raffle(shell).html")
+
+## Shell/W-2 Download
+
+![alt text](https://raw.githubusercontent.com/securestate/king-phisher-templates/master/screenshots/Email/W-2_Download_html_Screenshot.png "w_2_download(shell).html")
 
 ## Shell/Phishing Awareness
 
