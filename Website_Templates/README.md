@@ -82,7 +82,7 @@ Below is a gallery of different Website templates that can be integrated into Ki
 
 ## Training/Phishing Awareness Sorry
 
-![alt text](https://raw.githubusercontent.com/securestate/king-phisher-templates/master/Website_Templates/Training/Phishing_Awareness/screenshots/website_Templates-Credentials-Anti_Virus_Update-SCAN.png "Phishing_Awareness_SCAN.html")
+![alt text](https://raw.githubusercontent.com/securestate/king-phisher-templates/master/Website_Templates/Training/Phishing_Awareness/screenshots/Training_Phishing_awareness_SORRY.png "Phishing_Awareness_SORRY.html")
 
 ## Training/Phishing Awareness Trained
 
