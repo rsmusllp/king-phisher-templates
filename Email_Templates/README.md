@@ -22,7 +22,7 @@ Below is a gallery of different Email templates that can be integrated into King
 
 ## Credentials/SurveyHound
 
-![alt text](https://raw.githubusercontent.com/securestate/king-phisher-templates/master/Email_Templates/Shell/SurveyHound/screenshots/SurveyHound_Credentials_Screenshot.png "surveyhound(shell).html")
+![alt text](https://raw.githubusercontent.com/securestate/king-phisher-templates/master/Email_Templates/Credentials/SurveyHound/screenshots/SurveyHound_Credentials_Screenshot.png "surveyhound(shell).html")
 
 ## Credentials/Ticket Notice
 
