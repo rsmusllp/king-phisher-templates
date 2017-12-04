@@ -1,9 +1,9 @@
-# Raffle Ticket Generator
+# W2 HR Email
 ## Objective
 Shell
 ## Pretext
 
-As part of an upcoming holiday or special event, you are an HR or marketing employee that is doing a special raffle. 
+The company's Human Resources department is having technical issues and needs to distribute everyone's W2s via an email attachment.
 ## Modify
 
 1. Create your own malicious document and attach to the email. 
