@@ -9,6 +9,7 @@ p { max-width:650px; margin:20px auto; }
 input { margin:5px 10px; }
 a {color:#95040b; text-decoration:none; }
 a:hover {text-decoration:underline; }
+li {margin-left: 50px; }
 
 
 .logo { width:300px; box-shadow:none;  }
