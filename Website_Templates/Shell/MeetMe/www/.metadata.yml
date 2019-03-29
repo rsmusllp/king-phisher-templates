@@ -1,0 +1,20 @@
+authors:
+  - Jeremy Schoeneman
+classifiers:
+  - "Template :: Site  :: Credentials"
+  - "Template :: Site  :: Payload"
+description: |
+  A fully-featured site template that looks like an online meeting service. This
+  template can be used for harvesting credentials or delivering payload
+  executables depending on the configuration.
+homepage: https://github.com/securestate/king-phisher
+pages:
+  - /download.html
+  - /index.html
+  - /join.html
+  - /login.html
+  - /mysharedfiles.html
+  - /share.html
+  - /verify.html
+title: MeetMe Web Meeting
+version: 1.0

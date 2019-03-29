@@ -1,0 +1,14 @@
+authors:
+  - Brandan Geise
+classifiers:
+  - "Template :: Site :: Credentials"
+  - "Template :: Site :: Payload"
+description: |
+  This site template attempts to entice the user into accepting a new version of
+  Anti-Virus software. Visitors are first prompted to login to the site which
+  will run a fake check to see if their Anti-Virus software is up to date before
+  informing them that it is not and offering them an update executable.
+pages:
+  - /login
+title: Anti-Virus Update
+version: 1.0

@@ -1,0 +1,13 @@
+authors:
+  - Jeff McCutchan
+classifiers:
+  - "Template :: Site :: Training"
+description: |
+  A training site template that informs the user that they fell for a phishing
+  message. The template then describes what phishing is and lists some common
+  characteristics for users to watch out for next time.
+homepage: https://github.com/securestate/king-phisher
+pages:
+  - /register
+title: Phishing Awareness
+version: 1.0
