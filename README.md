@@ -5,7 +5,7 @@ Templates for the King Phisher Phishing Campaign Toolkit.
 
 These files are provided for use with [King Phisher][king-phisher-repo].
 
-All template documentation is kept in the [King Phisher Wiki][king-phiher-wiki].
+All template documentation is kept in the [King Phisher Wiki][king-phisher-wiki].
 
 These template files will **only work with the King Phisher server**. Using the
 template files with another server such as Apache or Nginx will not result in
