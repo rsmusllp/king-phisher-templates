@@ -1,3 +1,7 @@
+{% if request.credentials is defined and request.credentials.regex_validated is not eq(false) %}
+{{ make_redirect_page('./verify.html', title='Loading Page...') }}
+{% else %}
+{% set invalid_creds = request.credentials is defined %}
 <html lang="en-US">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
@@ -54,7 +58,7 @@
         </div>
     </div>
     <div class="form_area">
-        <form action="./verify.html" method="post">
+        <form action="" method="post">
             <table class="center login_table" style="width:600px;">
                 <tr>
                     <td>
@@ -62,6 +66,11 @@
                         Please use your user credentials to log in to enter your meeting.</span>
                     </td>
                 </tr>
+                {% if invalid_creds %}
+                <tr>
+                    <td><span style="font-size: 1.1rem; font-weight: bold;">Login failed.</span></td>
+                </tr>
+                {% endif %}
                 <tr>
                     <td>
                         <input name="username" id="username" type="text" class="input" placeholder="Company Username" required>
@@ -79,7 +88,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><input id="login-button" type="submit" class="button" value="Log In"></td>
+                    <td><input id="login-button" type="submit" class="button" value="Login"></td>
                 </tr>
             </table>
         </form>
@@ -109,3 +118,4 @@
     </script>
 </body>
 </html>
+{% endif %}
